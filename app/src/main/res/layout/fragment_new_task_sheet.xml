@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".NewTaskSheet"
+    android:layout_margin="10dp"
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/tv_title_frg_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_new_task_txt"
+        android:textSize="30sp"
+        android:layout_marginTop="20dp"
+        style="@style/TextAppearance.AppCompat.Title"
+        android:layout_marginStart="20dp"
+
+        />
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="10dp"
+        android:layout_marginHorizontal="20dp"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+        >
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/et_name_frag_id"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="@string/et_name_frag_txt" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="10dp"
+        android:layout_marginHorizontal="20dp"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+        >
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etDescriptionFragId"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="@string/et_desc_frag_txt" />
+    </com.google.android.material.textfield.TextInputLayout>
+<com.google.android.material.button.MaterialButton
+
+    android:id="@+id/btn_selectTime_frag_id"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginHorizontal="20dp"
+    android:layout_marginBottom="5dp"
+    android:text="@string/btn_selectTime_frag_txt"
+    />
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_save_frag_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginHorizontal="20dp"
+        android:text="@string/btn_save_frag_txt"
+        android:layout_marginBottom="20dp"
+        android:textColor="?colorOnPrimary"
+        android:backgroundTint="?attr/colorPrimary"
+
+        />
+
+</LinearLayout>

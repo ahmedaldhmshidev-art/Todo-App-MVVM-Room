@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">ToDoListApp</string>
+    <string name="tv_task_name_txt">Task Name:</string>
+    <string name="tv_task_desc_txt">Task Desc:</string>
+    <string name="btn_new_task_txt">New Task</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="et_name_frag_txt">Name Task!</string>
+    <string name="et_desc_frag_txt">Description</string>
+    <string name="btn_save_frag_txt">Save</string>
+    <string name="btn_selectTime_frag_txt">Select Time</string>
+    <string name="tv_name_place_holder_cell_txt">Place Holder</string>
+    <string name="imgBtn_CheckBox_cell_txt">CheckBox</string>
+
+
+</resources>
