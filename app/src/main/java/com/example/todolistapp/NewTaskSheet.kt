@@ -29,7 +29,7 @@ class NewTaskSheet(var taskItemTS: TaskItem?) : BottomSheetDialogFragment(){
 // لجعل الحقول قابل لتعديل
             var editable = Editable.Factory.getInstance()
             bindingFrg.etNameFragId.text = editable.newEditable(taskItemTS!!.nameTI)
-            bindingFrg.etNameFragId.text = editable.newEditable(taskItemTS!!.descTI)
+            bindingFrg.etDescriptionFragId.text = editable.newEditable(taskItemTS!!.descTI)
 //            ..
             if (taskItemTS!!. dueTime() != null){
                 dueTime = taskItemTS!!. dueTime()!!
